@@ -1,5 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .env
+.env.sentry-build-plugin
+sentry.edge.config.ts
+sentry.server.config.ts
+
 # dependencies
 /node_modules
 /.pnp

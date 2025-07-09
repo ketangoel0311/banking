@@ -8,8 +8,8 @@ export default function RootLayout({
   return (
     <main className="flex min-h-screen w-full justify-between font-inter">
       {children}
-      <div className="auth-asset">
-        <div>
+      <div>
+        {/* <div>
           <Image
             src="/icons/auth-image.svg"
             alt="Auth image"
@@ -17,7 +17,7 @@ export default function RootLayout({
             height={500}
             className="rounded-l-xl object-contain"
           />
-        </div>
+        </div> */}
       </div>
     </main>
   );
